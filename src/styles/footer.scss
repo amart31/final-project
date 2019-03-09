@@ -1,0 +1,29 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+$active-color: #0072ff;
+$footer-border-color: #CCC;
+$light-gray: #777;
+
+.footer {
+  height: 3rem;
+  border-bottom: 1px solid $footer-border-color;
+  box-shadow: 1px 1px 3px $footer-border-color;
+
+  .nav-item {
+    color: $light-gray;
+    padding: 0.85rem 2rem;
+    &.active {
+      color: $active-color;
+      font-weight: bold;
+      border-bottom: 2px solid $active-color;
+    }
+  }
+
+  a {
+    color: $light-gray;
+    text-decoration: none;
+    &:hover {
+      color: $active-color;
+    }
+  }
+}
