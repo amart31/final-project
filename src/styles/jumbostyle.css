@@ -1,0 +1,59 @@
+/*.container{*/
+/*  width: 64px;*/
+/*}*/
+button {
+  width: 50%;
+} 
+  
+.slide-container {
+  position: relative;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  border: 3px solid #73AD21;
+  min-height: 300px;
+} 
+ 
+.computedClass {
+  list-style: none;
+  font-size: 112px;
+  color: white;
+  padding: 0 4px 0 4px 
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 2s
+}
+
+.slide.active {
+  opacity: 1;
+}
+.slide-container > li {
+  list-style: none;
+  /*background: #1abc9c;*/
+}
+  /*original styling code below
+  /*li:nth-child(1) {*/
+  /*  background: #1abc9c*/
+  /*}*/
+    
+  /*li:nth-child(2){*/
+  /*  background: #e67e22*/
+  /*}*/
+    
+  /*li:nth-child(3){*/
+  /*  background: #2ecc71*/
+  /*}*/
+    
+  /*li:nth-child(4) {*/
+  /*  background: #8e44ad*/
+  /*}*/
+    
+  /*li:nth-child(5) {*/
+  /*  background: #e74c3c*/
+  /*}*/
