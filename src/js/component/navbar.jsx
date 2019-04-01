@@ -1,6 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Logo from "../../img/logo1.jpg";
+import SideBar from "./functional/sidebar.jsx";
+import "../../styles/home.css";
 
 /**
  *  Here I declare my component as an arrow function
@@ -19,12 +21,11 @@ export const Navbar = () => {
 	//this methods says how the NavBar should look like in HTML
 	return (
 		<nav className="navbar navbar-expand-lg navbar-light bg-light">
-			<a className="navbar-brand" href="#">
-				{/* here I pass the logo url to the navbar image */}
-				<img src={Logo} />
-			</a>
 			{/* here I pass the array of LIs into the UL */}
-			<ul className="navbar-nav mr-auto">{items}</ul>
+			<ul className="navbar-nav mr-auto">
+				<SideBar />
+				{items}
+			</ul>
 		</nav>
 	);
 };
