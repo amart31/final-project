@@ -1,19 +1,26 @@
 import React from "react";
-import SubHeadCard from "./functional/FeaturedProducts";
+import SubHeadCard from "./functional/SubHeadCard";
 
 const SubHead = props => {
 	return (
-		<div className="container">
-			<div className="row">
-				<div className="col-md">
-					<SubHeadCard />
-				</div>
-				<div className="col-md">
-					<SubHeadCard />
-				</div>
-				<div className="col-md">
-					<SubHeadCard />
-				</div>
+		<div className="subhead-container">
+			<div className="d-inline-block">
+				<SubHeadCard
+					imgurl="https://www.blakleysflooring.com/wp-content/uploads/2016/03/Placeholder.png"
+					text="Buyer Protection"
+				/>
+			</div>
+			<div className="d-inline-block">
+				<SubHeadCard
+					imgurl="https://designshack.net/wp-content/uploads/placeholder-image.png"
+					text="Shop the feed"
+				/>
+			</div>
+			<div className="d-inline-block">
+				<SubHeadCard
+					imgurl="http://www.ieeeaustsb.org/files/2017/05/placeholder-female-square.png"
+					text="Lowest Fees"
+				/>
 			</div>
 		</div>
 	);
