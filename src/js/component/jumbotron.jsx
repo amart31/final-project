@@ -1,11 +1,11 @@
 import React from "react";
 
 let imgUrl =
-	"https://cdn.pixabay.com/photo/2017/01/17/03/58/bonding-1985863_960_720.jpg";
+	"https://images.pexels.com/photos/1345082/pexels-photo-1345082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260";
 const jumbostyle = {
 	backgroundImage: "url(" + imgUrl + ")",
 	backgroundSize: "cover",
-	color: "white",
+	color: "#4a82db",
 	height: "500px"
 };
 

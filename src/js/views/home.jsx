@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import FeaturedList from "../component/FeaturedList";
 import SubHead from "../component/SubHead";
 import Jumbotron from "../component/jumbotron.jsx";
+import HowItWorks from "../component/HowItWorks";
 
 //Styles sheet
 import "../../styles/home.css";
@@ -23,13 +24,9 @@ export class Home extends React.Component {
 					<h2 className="section-heading mt-4">
 						How it works section
 					</h2>
-					<ul>
-						<li>Step one</li>
-						<li>Step two</li>
-						<li>Step three</li>
-						<li>Step four</li>
-						<li>Step five</li>
-					</ul>
+					<div className="how-itworks text-center">
+						<HowItWorks />
+					</div>
 				</div>
 			</div>
 		);

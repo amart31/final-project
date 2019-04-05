@@ -1,5 +1,7 @@
 import React from "react";
 import FeaturedProducts from "./functional/FeaturedProducts";
+
+//Styles import
 import "../../styles/featurelist.css";
 
 const FeaturedList = props => {
