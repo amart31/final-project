@@ -1,6 +1,6 @@
 .stepnumber {
     text-transform: uppercase;
-    border: 5px solid grey;
+    border: 5px solid #4a82db;
     height: 60px;
     width: 60px;
     margin-left: auto;
@@ -9,7 +9,7 @@
     text-align: center;
 }
 .vl {
-    border-left: 6px solid grey;
+    border-left: 6px solid #4a82db;
     height: 25px;
     position: relative;
     left: 50%;
@@ -17,11 +17,23 @@
     top: 0;
 }
 .stepdetails{
-    border: 5px solid grey;
+    border: 5px solid #4a82db;
     height: 100px;
     width: 120px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     text-align: center;
+}
+.switcher{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    align-content: center;
+    width: 335px;
+}
+
+.nav-tabs .nav-link.active, 
+.nav-tabs .nav-item.show .nav-link{
+    border: none;
 }
