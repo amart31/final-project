@@ -1,5 +1,6 @@
 import React from "react";
 import "../../../styles/subhead.css";
+import PropTypes from "prop-types";
 
 const SubHeadCard = props => {
 	return (
@@ -15,3 +16,8 @@ const SubHeadCard = props => {
 };
 
 export default SubHeadCard;
+
+SubHeadCard.propTypes = {
+	imgurl: PropTypes.string,
+	text: PropTypes.string
+};
